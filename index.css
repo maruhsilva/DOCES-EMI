@@ -32,7 +32,7 @@ body {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 .menu h1 {
@@ -101,6 +101,10 @@ body {
     text-align: center;
     color: palevioletred;
     letter-spacing: .1rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .content-description {
@@ -144,6 +148,10 @@ body {
 }
 
 @media (max-width: 1000px) {
+
+    .menu {
+        padding-top: 5%;
+    }
 
     .tab-buttons {
         gap: 10px;
